@@ -9,6 +9,6 @@ PLUGIN_DIR="$BASE_DIR/plugins"
 mkdir -p $PLUGIN_DIR
 
 git clone https://github.com/tmux-plugins/tpm $PLUGIN_DIR/tpm
-git clone https://github.com/disasterbyte/dotfiles/master/.tmux.conf -O $HOME/.tmux.conf
+wget https://raw.github.com/disasterbyte/dotfiles/master/.tmux.conf -O $HOME/.tmux.conf
 
 echo "tmux setup complete :)"
