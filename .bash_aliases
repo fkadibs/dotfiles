@@ -32,9 +32,9 @@ alias reload='source ~/.bashrc'
 alias treload='tmux source-file ~/.tmux.conf'
 
 #git
-alais add='git add'
+alias add='git add'
 alias commit='git commit'
-alias push ='git push'
+alias push='git push'
 alias status='git status'
 alias stash='git stash'
 alias gpom='git push origin master'
