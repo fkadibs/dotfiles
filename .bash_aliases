@@ -36,12 +36,14 @@ alias treload='tmux source-file ~/.tmux.conf'
 
 #git
 alias add='git add'
-alias commit='tox -e commit && git commit'
-alias push='tox -e push && git push'
+alias commit='git commit'
+alias pushs='git push'
+alias tcommit='tox -e commit && git commit'
+alias tpush='tox -e push && git push'
 alias status='git status'
 alias stash='git stash'
 alias gpom='git push origin master'
 
 # tmux
 alias tm='tmux attach || tmux new-session'
-alias tmls=tmux list-sessions'
+alias tmls='tmux list-sessions'
