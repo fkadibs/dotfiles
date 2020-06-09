@@ -1,0 +1,42 @@
+    {
+      // Make changes here to the cmd.exe profile
+      "guid": "{d34db33f-0000-0000-0000-000000000000}",
+      "name": "cmd",
+      "commandline": "cmd.exe",
+      "colorScheme": "OneDark",
+      "cursorShape": "filledBox",
+      "cursorColor": "#5C6370",
+      "scrollbarState": "hidden",
+      "padding": "2, 4, 2, 0",
+      "antialiasingMode": "cleartype",
+      "suppressApplicationTitle": true,
+      "fontFace": "Consolas",
+      "fontSize": 10,
+      "historySize": 100000,
+      "hidden": false
+    }
+  ],
+
+  // Add custom color schemes to this array
+  "schemes": [
+    {
+      "name": "onedark",
+      "background": "#1E2127",
+      "black": "#1E2127",
+      "blue": "#61AFEF",
+      "cyan": "#56B6C2",
+      "foreground": "#ABB2BF",
+      "green": "#98C379",
+      "purple": "#C678DD",
+      "red": "#E06C75",
+      "white": "#ABB2BF",
+      "yellow": "#D19A66",
+      "brightBlack": "#5C6370",
+      "brightBlue": "#61AFEF",
+      "brightCyan": "#56B6C2",
+      "brightGreen": "#98C379",
+      "brightPurple": "#C678DD",
+      "brightRed": "#E06C75",
+      "brightWhite": "#FFFFFF",
+      "brightYellow": "#D19A66"
+    }
